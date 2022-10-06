@@ -78,6 +78,7 @@ body{
 .nav__list li:hover,
 .home__description p a:hover  {
     color: #070707;
+    transition: color .5s;
 }
 .nav_color{
     position: fixed;
