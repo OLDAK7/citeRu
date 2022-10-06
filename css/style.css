@@ -252,6 +252,8 @@ body{
 }
 .contacts__btn a:hover{
     background: #828282;
+    transition: background .5s;
+    border: none;
 }
 
 /*contacts-modal */ 
