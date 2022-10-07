@@ -85,6 +85,8 @@ $(document).ready(function() {
     for (let a = 1; a <= $(".mobile ul li").length; a++) {
         $(".mobile ul li:nth-child(" + a + ")").css("animation-delay", "." + (a + 1) + "s");
     }
-    
+
+    // wow
+    new WOW().init();
 });
 
